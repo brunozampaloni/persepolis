@@ -309,8 +309,8 @@ iframe{ /*para el video de youtube*/
     body{
         padding-top: 30px;
     }
-
-     .grupo{  /*esto paara que qued bien los grupos en celu*/
+ /*esto paara que qued bien los grupos en celu*/
+    .grupo{ 
     display:block;
     max-width: 100%;
     }
@@ -326,6 +326,29 @@ iframe{ /*para el video de youtube*/
         align-items: center;
         max-width: 100%;
     }
+/*esto es para lo de los libros como para lo del arte*/
+    .tomo {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    gap: 25px;
+    
+    }
+    .tomo img{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        max-width: 100%;
+        margin-top: 25px;
+    }
+
+    iframe{ /*para el video de youtube*/
+    max-width: 100%;
+    }
+
+
+/*todo esto es para el menu hambuerger*/
   .temas {
     position: absolute;
     top: 40px;
