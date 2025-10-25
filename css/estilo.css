@@ -310,6 +310,10 @@ iframe{ /*para el video de youtube*/
         padding-top: 30px;
     }
 
+    .grupo{
+    display: flex;
+    }
+
   .temas {
     position: absolute;
     top: 40px;
