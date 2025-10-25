@@ -310,10 +310,22 @@ iframe{ /*para el video de youtube*/
         padding-top: 30px;
     }
 
-    .grupo{
-    display: block;
+     .grupo{  /*esto paara que qued bien los grupos en celu*/
+    display:block;
+    max-width: 100%;
     }
-
+    .dos img{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        max-width: 100%;
+    }
+    .uno img{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        max-width: 100%;
+    }
   .temas {
     position: absolute;
     top: 40px;
