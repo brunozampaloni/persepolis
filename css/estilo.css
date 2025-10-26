@@ -370,5 +370,7 @@ iframe{ /*para el video de youtube*/
   .menu-icon { display: block; 
     }
 
-    
+    .footer-container{
+        padding: 0 10%;
+    }
 }
