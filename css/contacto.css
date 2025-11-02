@@ -1,0 +1,70 @@
+
+
+
+.contenedor {
+    background-color: rgb(26, 26, 26);
+    margin: auto;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background-color: rgb(134, 135, 130);
+    color: white;
+    font-size: 1em;
+    transition: 0.2s;
+}
+
+input:focus, textarea:focus { /* esto es cuando le haces clik a la coso del texto*/
+    background-color:rgb(134, 135, 130);
+    outline: 2px solid rgb(175, 40, 47);
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="enviar"] {
+    background-color: rgb(175, 40, 47);
+    color: white;
+}
+
+button[type="enviar"]/*esto es para indicar que boton*/:hover {
+    background-color: #c2272e;
+}
+
+button.reset {
+    background-color: rgb(134, 135, 130);
+    color: white;
+}
+
+button.reset:hover {
+    background-color: rgb(130, 130, 130);
+}

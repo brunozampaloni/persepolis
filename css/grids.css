@@ -1,0 +1,47 @@
+#cajaGrilla{
+    padding: 30px;
+    
+    gap: 10px;
+    height: 600px;
+    font-size: 2.5rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 4fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "lana   logoLetra   logoLetra   producto"
+    "tazon  tazon       logo        producto"
+    
+    ;
+}
+
+article{
+    border-radius: 30px;
+}
+
+#lana{
+    background-color: rgb(134, 135, 130);
+
+    grid-area: lana;
+}
+#logoLetra{
+    background-color: rgb(26, 26, 26);
+    grid-area: logoLetra;
+}
+#producto{
+
+    background-color: rgb(134, 135, 130);
+    grid-area: producto;
+}
+#tazon{
+    grid-area: tazon;
+    background-color: rgb(134, 135, 130);
+}
+#logo{
+    grid-area: logo;
+    background-color: rgb(175, 40, 47);
+}
+#frase{
+    grid-area: frase;
+    background-color: rgb(26, 26, 26);
+}
