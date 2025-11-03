@@ -9,6 +9,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(134, 135, 130);
     padding-top: 50px; /* altura para que la barra de nav no tape el body */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
