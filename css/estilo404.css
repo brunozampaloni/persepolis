@@ -52,6 +52,7 @@ body {
     color: white;
     transition: background-color 0.3s ease, transform 0.2s ease;
     display: inline-block;
+    margin-bottom: 20px;
 }
 .boton:hover {
     background-color: rgb(200, 40, 45);
@@ -86,8 +87,9 @@ body {
     }
 }
 
-
-
+.datos{
+    margin-bottom: 20px;
+}
 
 
 

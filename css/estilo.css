@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
 }
 
-
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css');
 
 @import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 /* todo esto es para la barra de nav*/
@@ -352,24 +352,26 @@ iframe{ /*para el video de youtube*/
 }
 
 .footer ul li a{
-    color: #bbbbbb;
-    text-decoration: none;
     display: block;
     margin-bottom: 10px;
     margin: 0 auto;
-
 }
-.redes a img {
-    width: 30px;
-    height: 30px;
+.footer a{
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+.redes a i{
+    font-size: 30px;
     margin-right: 10px;
     transition: transform 0.3s ease; /*tiempo del cambio*/
 }
 .footer-links a:hover { /*que cambie de color solo en el footer*/
     color: rgb(230, 49, 56);
+    
 }
-.redes a img:hover{
-    transform: scale(1.05);/* cambio del escalado   (repasarlo despues)  */
+.redes a i:hover{
+    
 }
 
 
