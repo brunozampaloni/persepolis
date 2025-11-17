@@ -65,4 +65,14 @@ button.reset {
 
 button.reset:hover {
     background-color: rgb(130, 130, 130);
+
+}
+
+
+::placeholder{
+    color: aliceblue;
+}
+
+a{
+    color:#c2272e; 
 }
