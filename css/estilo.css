@@ -443,4 +443,17 @@ iframe{
     .menu-icon { display: block; }
 
     .footer-container{padding: 0 10%;}
+
 }
+
+
+
+/*CORRECCION DEL CARUCEL EN CELU Y TABLET*/
+
+
+@media (max-width: 500px) {
+    .scroll img {
+        width: 120px;
+    }
+}
+
