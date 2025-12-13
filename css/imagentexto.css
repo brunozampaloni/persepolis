@@ -1,0 +1,54 @@
+.galeria-hover {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 1000px; /* o lo que uses en main para centrar */
+}
+
+.item-hover {
+  position: relative;
+  width: 300px; 
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  background: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.item-hover img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,0.9);
+  color: #222; 
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 1.4;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.item-hover:hover {
+  transform: scale(1.02);
+}
+
+.item-hover:hover .overlay-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+

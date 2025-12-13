@@ -257,55 +257,18 @@ iframe{
     transform: scale(1.05);
 }
 
-
-
-
-
-.mov{
-    background-color: rgb(26, 26, 26);
-    max-width: 960px;
+@media (max-width: 1000px) {
+.libro{ 
+    max-width: 600px;
     margin: auto;
-    padding: 25px;
-    border-radius: 12px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    overflow: hidden; /*esto es para que las imagens no se salgan del mov */
 }
-
-.scroll{
-    display: inline-flex;
-    animation: mover 20s linear infinite; /* velocidad y movimiento */
 }
-
-.scroll img {
-    width: 250px;
-    height: auto;
-    margin: 0 10px;
-    border-radius: 10px;
+@media (max-width: 599px) {
+.libro{ 
+    max-width: 300px;
+    margin: auto;
 }
-
-
-
-/*con esto hago el carrusel de los gif*/
-@keyframes mover {
-    from {
-        transform: translateX(0);
-        }
-    to {
-        transform: translateX(-65%);/*con esto es que tatno se va a desplazar en a la izquierda*/
-        }
-    }
-
-
-
-@media (max-width: 850px) {
-
-
-
 }
-
-
- 
 
 
 /* todo esto es para el footer*/
@@ -424,6 +387,16 @@ iframe{
 
     .libro{width: 100%;}
 
+
+
+
+    .footer-container{padding: 0 10%;}
+}
+
+
+
+
+@media (max-width: 1024px) {
 /*todo esto es para el menu hambuerger*/
     .temas {/*hace que se vean los temas en columna*/
     position: absolute;
@@ -441,19 +414,4 @@ iframe{
     #menu-toggle:checked ~ .temas {display: flex;}
 
     .menu-icon { display: block; }
-
-    .footer-container{padding: 0 10%;}
-
 }
-
-
-
-/*CORRECCION DEL CARUCEL EN CELU Y TABLET*/
-
-
-@media (max-width: 500px) {
-    .scroll img {
-        width: 120px;
-    }
-}
-
